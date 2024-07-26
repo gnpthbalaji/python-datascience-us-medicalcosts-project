@@ -156,14 +156,6 @@ print(patientInformation.average_charges_region())
 print(patientInformation.average_age_children())
 print(patientInformation.create_dict())
 
-#Predicting the insurance charges based on the bmi of the patients
-import numpy as np
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-
-#Reshaping the bmi data
-bmi_reshaped = np.array(bmis).reshape(-1,1)
-insurance_charges_reshaped = np.array(insurance_charges).reshape(-1,1)
 
 
 
