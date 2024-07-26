@@ -12,7 +12,7 @@ insurance_charges = []
 
 
 #Import the csv file columns to the empty lists
-with open('/Users/balajiguntur/Documents/CodeAcademy_Projects/python-datascience-us-medicalcosts-project/insurance.csv', 'r') as file:
+with open('insurance.csv', 'r') as file:
     reader = csv.DictReader(file)
     for row in reader:
         ages.append(int(row['age']))
